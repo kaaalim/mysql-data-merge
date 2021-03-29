@@ -4,8 +4,8 @@
     <h1 class="jumbotron-heading"><?php echo _('MySQL Data Merge'); ?></h1>
     <p class="lead text-muted"><?php echo _('Online Tool for Differencing & Merging MySQL Databases'); ?></p>
     <p>
-      <a href="connect" class="btn btn-primary my-2"><?php echo _('Merge Online'); ?></a>
-      <a href="download" class="btn btn-secondary my-2"><?php echo _('Download'); ?></a>
+      <a href="connect.php" class="btn btn-primary my-2"><?php echo _('Merge Online'); ?></a>
+      <a href="download.php" class="btn btn-secondary my-2"><?php echo _('Download'); ?></a>
     </p>
   </div>
 </section>

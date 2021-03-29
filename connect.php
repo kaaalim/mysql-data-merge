@@ -25,7 +25,7 @@
         <li class="pt-1 pb-1"><small><?php echo _('We respect your privacy and do not collect any private data and do not track you by using Ads/Analytics JavaScript on this page'); ?></small></li>
       </ul>
     </div>
-    <form name="database" method="post" action="compare">
+    <form name="database" method="post" action="compare.php">
       <div class="card-deck mt-4 mb-4">
         <div class="card box-shadow">
           <div class="card-header text-center pt-2 pb-2 bg-dark text-white">

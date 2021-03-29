@@ -36,12 +36,12 @@
   }
 
   switch (false) {
-    case isset($_POST['source_host']) && $_POST['source_host'] != 'localhost' && $_POST['source_host'] != '127.0.0.1' && $_POST['source_host']:
+    case isset($_POST['source_host']) && $_POST['source_host']:
     case isset($_POST['source_port']) && $_POST['source_port']:
     case isset($_POST['source_database']) && $_POST['source_database']:
     case isset($_POST['source_username']) && $_POST['source_username']:
     case isset($_POST['source_password']) && $_POST['source_password']:
-    case isset($_POST['target_host']) && $_POST['target_host'] != 'localhost' && $_POST['target_host'] != '127.0.0.1' && $_POST['target_host']:
+    case isset($_POST['target_host']) && $_POST['target_host']:
     case isset($_POST['target_port']) && $_POST['target_port']:
     case isset($_POST['target_database']) && $_POST['target_database']:
     case isset($_POST['target_username']) && $_POST['target_username']:
@@ -180,7 +180,7 @@
           <?php echo $error; ?>
         </div>
       <?php } else { ?>
-        <form name="database" method="post" action="merge">
+        <form name="database" method="post" action="merge.php">
           <table class="table table-bordered mt-4 mb-4">
             <thead class="thead-dark">
               <tr>
